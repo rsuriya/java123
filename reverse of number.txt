@@ -1,0 +1,17 @@
+
+public class Ass04 {
+
+	
+	public static void main(String[] args) {
+		int a,sum=0,n;
+		a=Integer.parseInt(args[0]);
+		while(a!=0)
+		{
+			n=a%10;
+			sum=sum*10+n;
+			a=a/10;		
+		}
+System.out.println("reverse of all digits="+sum);
+	}
+
+}
